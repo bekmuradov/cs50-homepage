@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Rimouski SemiBold', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-right: 2rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    display: inline-block;
+    background: -webkit-linear-gradient(45deg, teal, yellow, crimson);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.2) inset, -8px -8px 12px 0 rgba(0, 0, 0, .2) inset;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.links {
+    color: rgb(0, 128, 128);
+    text-decoration: none;
+    transition: ease-in-out .5s color .2s;
+    outline: none;
+}
+
+.extr-links:hover,
+.extr-links:focus {
+    color: rgb(220, 20, 60);
+    text-decoration: underline;
+}
+
+.intr-links:hover,
+.intr-links:focus {
+    color: rgb(153, 205, 50);
+    text-decoration: underline;
+}

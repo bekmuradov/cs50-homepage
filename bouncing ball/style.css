@@ -1,0 +1,54 @@
+body {
+  font-family: 'Rimouski SemiBold';
+  overflow: hidden;
+  height: inherit;
+}
+
+.container {
+  padding: 0;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  bottom: 30px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 3px white;
+}
+
+#score {
+  font-size: 1rem;
+  position: absolute;
+  margin: 0;
+  bottom: 70px;
+  right: 5px;
+  color: #999;
+}
+
+#start,
+#info {
+  margin-top: 30vh;
+}
+
+.alert {
+  margin: auto;
+  width: 30%;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+canvas {
+  height: 93vh;
+  width: 100vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .alert {
+    width: 70%;
+  }
+}

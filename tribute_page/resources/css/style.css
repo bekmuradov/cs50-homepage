@@ -1,0 +1,174 @@
+body {
+    font-family: 'Poppins Light', sans-serif;
+}
+/*Main(outer) container*/
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3eaf7;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px 10px 10px 10px;
+}
+
+/*Main Title & Sub-Title*/
+#title {
+    font-family: 'Rimouski SemiBold', sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 10px;
+    background: -webkit-linear-gradient(45deg, #008080, #dc143c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+#sub-title {
+     text-align: center;
+     margin-bottom: 15px;
+     font-size: 1.2rem;
+     color: #212121;
+}
+
+/*Section one (image + biography text)*/
+#one {
+    width: 100%;
+}
+
+#img-div {
+    margin: auto;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid teal;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+#img-caption {
+    font-style: italic;
+    font-size: 0.8rem;
+    max-width: 88%;
+    margin: auto;
+    text-align: center;
+}
+
+#img-caption time {
+    font-size: 0.8rem;
+}
+
+/*Biography & Diagram*/
+#diagram {
+    float: left;
+    margin-right: 1rem;
+    border: 1px solid #8d9191;
+}
+#bio-div {
+    font-size: 1.2rem;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/*Section two (timeline + influence text)*/
+#two {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/*Timeline Title*/
+#tribute-info {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+/*Timeline Content*/
+#timeline {
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: left;
+    padding: 30px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+#timeline ul li, 
+#footer-note ul li{ 
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+time {
+    font-family: 'Poppins Bold';
+    font-weight: 600;
+    font-size: 1rem;
+}
+sub {
+    vertical-align: top;
+    font-size: smaller;
+}
+
+#influence {
+    font-family: 'Poppins Italic', sans-serif;
+    margin: 0 auto;
+    padding: 10px;
+}
+hr {
+    width: 650px;
+    margin: auto;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+/*Section three/footer (furher reading content)*/
+#three {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#footer-title {
+    font-size: 1rem;
+}
+
+/*External Links*/
+#footer-note ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#footer-note ul li {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #img-div {
+        margin: 0;
+        width: 100%;
+    }
+    #img-caption {
+        display: none;
+    }
+    hr {
+        width: 380px;
+    }
+
+    #footer-note ul li {
+        padding: 5px;
+    }
+}

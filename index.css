@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins Regular';
+    font-size: 10px;
+    background-color: #e6e6e6;
+}
+
+header, main, footer {
+    margin: auto;
+    width: 65%;
+}
+
+header {
+    font-family: 'Rimouski SemiBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+h1 span {
+    background: linear-gradient(45deg, #008080, #ffff00, #dc143c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+main {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+sub {
+    vertical-align: super;
+    font-size: 0.7em;
+}
+
+.projects {
+    font-family: 'Poppins Italic';
+}
+
+.phase {
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.list {
+    margin-left: 1rem;
+    line-height: 2;
+}
+
+.notes {
+    font-size: small;
+}
+
+footer {
+    font-size: 0.6rem;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    header, main, footer {
+        margin: auto;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .list, 
+    .notes{
+        font-size: .8rem;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+

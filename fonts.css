@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Rimouski SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Rimouski SemiBold'), 
+    url('fonts/rimouski\ sb.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'),
+    url('fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins Italic';
+    font-weight: 300;
+    font-style: italic;
+    src: local('Poppins Italic'),
+    url('fonts/Poppins-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins Extra Light Italic';
+    font-style: italic;
+    src: local('Poppins Extra Light Italic'),
+    url('fonts/Poppins-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins Light';
+    src: local('Poppins Light'),
+    url('fonts/Poppins-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Poppins Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('Poppins Bold'), 
+    url('fonts/Poppins-Bold.woff') format('woff');
+}

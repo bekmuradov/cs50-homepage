@@ -1,0 +1,69 @@
+
+header, main {
+  width: 45vw;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Poppins Regular", arial, sans-serif;
+  background: -webkit-linear-gradient(70deg, #801e00, rgb(0, 38, 255), #dc143c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 1.5rem auto 1.5rem 3rem;
+}
+
+.full-img {
+  position: relative;
+  margin: auto;
+}
+
+.displayed-img {
+  width: 90%;
+}
+
+.outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+}
+
+#filter {
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 18%;
+  float: left;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  header, 
+  main {
+    width: 90vw;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  .displayed-img,
+  .outer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .thumb-bar img {
+    width: 20%;
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="../navbar.css">
+    <style>
+      body {
+        font-family: "Poppins Regular", sans-serif;
+      }
+
+      section {
+        width: 50%;
+        margin: 30px auto;
+      }
+
+      h1 {
+        background: -webkit-linear-gradient(45deg, #008080, #dc143c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+      }
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        #basic-addon1 {
+          font-size: small;
+        }
+        section {
+          width: 90%;
+        } 
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="../index.html">Homepage</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../tribute_page/index.html">Tribute Page</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../number_guesser/index.html">Guess Number</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="../bouncing ball/index.html">Bouncing Ball</a>
+          </li>   
+          <li class="nav-item">
+              <a class="nav-link" href="../image_gallery/index.html">Image Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../practise/index.html">Practise Projects</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  <section class="container-sm">
+    <h1>Guess Number</h1>
+
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Enter a number: </span>
+      </div>
+      <input type="text" class="form-control guessField" placeholder="88" aria-label="Username" aria-describedby="basic-addon1">
+      <input type="submit" value="Submit" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+  </section>
+    
+
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
